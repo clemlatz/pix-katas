@@ -1,0 +1,23 @@
+{
+  "name": "clean-archi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon presentation/server.js",
+    "test": "mocha --recursive --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "mocha": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "sinon": "^9.2.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0"
+  }
+}
